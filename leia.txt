@@ -1,0 +1,19 @@
+#Documento utilizado para comandos GitHUB
+Disable SSL verification on Git globally:
+git config --global user.name "usuarioGITHUB"
+git config --global user.email "email GITHUB"
+git config --global http.sslVerify false
+git clone <your repo>
+
+Enable SSL verification on Git globally:
+git config --global http.sslVerify true
+
+Change directory into your repo:
+cd <your repo>
+
+Disable SSL verification only on your repository:
+git config --local http.sslVerify false
+
+git config --global user.name "diretorio"
+git config --global user.email "email"
+git --global credential.helper cache
